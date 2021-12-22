@@ -68,7 +68,7 @@
 </nav>
 <!--fin nav-->
 @if(App::isLocale('fr'))
-<div id="haut" style="background-image: url(../back_g/bcp.png);height: 400px;color:red">
+<div id="haut" style="background-image: url(../back_g/bcp.png);height: 400px;">
 <h1 style="float: left;margin-left:5%" class="animate animate__animated animate__backInRight animate__delay-2s"> {{__("message.On Vous Fournit Le Nécessaire")}}<br>
 {{__("message.Pour Lancer Votre")}} <br>
 {{__("message.Business En Ligne.")}}</h1>
