@@ -1,0 +1,223 @@
+@font-face{
+    font-family: 'VLADIMIR';
+ src: url('../font/VLADIMIR.TTf') format('OpenType');
+}
+
+@font-face{
+    font-family: 'mvboli';
+ src: url('../font/mvboli.ttf') format('OpenType');
+}
+
+@font-face{
+    font-family: 'FORTE';
+ src: url('../font/FORTE.TTF') format('OpenType');
+}
+
+body{
+ /* background-image: linear-gradient(white, white,#0A3172);*/
+  width: 100%;
+  border: 0px;
+  margin: 0px;
+}
+
+
+#haut{
+
+    width: 100%;
+    /*
+    background-image: url(../back_g/IMG.jpg);*/
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #070A13;
+    margin:0px;
+    color: white;
+
+}
+#haut h1{
+    
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 120px;
+    font-family: 'FORTE';
+  /*  
+    text-shadow: 0.2em 0.5em 0.1em cadetblue,
+      -0.3em 0.1em 0.1em chocolate,
+      0.4em -0.3em 0.1em cyan;
+      animation: backInDown;
+      animation-duration: 2s;
+      color:white;*/
+
+}
+#def{
+    width: 90%;
+    height: 100%;
+    margin-top:3%;
+    bottom: 5%;
+    color:#0A3172;
+    margin-left:5%;
+    margin-right:5%;
+}
+#def #definition h2{
+    text-align: center;
+}
+#def #definition{
+font-size: large;
+left: 5%;
+
+}
+#def #definition p{
+    width: 90%;
+    
+}
+
+#def #definition_img{
+    float: right;
+    
+}
+#def #definition_img img{
+    width: 90%;
+}
+
+#attention{
+    width: 70%;
+    margin:5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color:#0A3172;
+}
+
+#attention #attention_img{
+    float: left;
+}
+#attention #attention_img img{
+    width: 90%;
+
+}
+#attention #attention_txt{
+    float: right;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+#incon{
+    width: 80%;
+    margin-left: 10%;
+    right: 10%;
+}
+#incon h1{
+    text-align: center;
+   
+}
+
+#incon_total{
+    width: 100%;
+    top:2%;
+}
+
+#incon #incon_total #incon_img{
+    float: left;
+}
+#incon #incon_img img{
+    width: 90%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .5);
+
+}
+#incon #incon_total #incon_txt ul{
+    list-style: none;
+    font-size: x-large;
+}
+/*********************************/
+#pbm{
+  width:50%;
+  margin-left:5%;
+  text-align:center;
+  border:0px; 
+  border-radius: 25%;
+  margin-top:20px;
+}
+h2{
+  text-align:center;
+}
+#pbm tr td{
+color:white;
+background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border:0px;
+ 
+}
+
+#slt{
+width:50%;
+  margin-right:5%;
+  text-align:center;
+  border:0px; 
+  float:right;
+  margin-top:20px; 
+  
+}
+#slt tr td{
+color:white;
+background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border:0px;
+}
+
+
+.card{
+  text-align: center;
+  width: 200px;
+  background-color:transparent;
+  margin-right:5%;
+  border:0px;
+  float:right;
+}
+.card .card-header{
+  background-color:white;
+  border-radius:50%;
+  width:140px;height:140px;
+  margin-left:30px;margin-right: 30px;
+  border:2px solid #245E77;
+  margin-bottom:-50px;
+  z-index:3
+} 
+.card-body{
+  margin-top:15px;
+  border-radius: 5%;
+  height: 300px;
+  color:#245E77;
+  border:2px solid #245E77;
+}
+  
+  #footer{
+    background-color: #0A3172;  
+    width: 100%;/*
+    height: 100%;*/
+    color: white; 
+    text-align: center;
+    margin: 0px;
+    border: 0px; 
+    padding: 0%;
+border-top: 1px solid white;;
+    
+   
+}
+#footer .row{
+    width: 100%;
+}
+
+#rsx{
+    width: 100%;/*
+    height: 100%;*/
+    margin-top: 2%;
+    text-align: center;
+}
+
+#rsx a img:hover{
+    width: 28px;
+    height: 28px;
+}

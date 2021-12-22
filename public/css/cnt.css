@@ -1,0 +1,26 @@
+#fm_cnt{
+    width: 50%;
+    margin:3%;
+    margin-right: 25%;
+    margin-left: 25%;
+    background-color: transparent;
+    height: 100%;
+    border: 1px solid #0A3172;
+    
+}
+#fm_cnt input{
+    margin-left: 3%;margin-right: 3%;
+    border: 1px solid #0A3172;
+    
+}
+#name{
+    margin-top: 3%;
+}
+#fm_cnt textarea{
+    margin-left: 3%;margin-right: 3%;
+    border: 1px solid #0A3172;
+    
+}
+ #btn{
+    margin-bottom: 3%;
+}

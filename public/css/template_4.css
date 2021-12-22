@@ -1,0 +1,305 @@
+
+@font-face{
+    font-family: 'VLADIMIR';
+ src: url('../font/VLADIMIR.TTf') format('OpenType');
+}
+
+@font-face{
+    font-family: 'mvboli';
+ src: url('../font/mvboli.ttf') format('OpenType');
+}
+
+@font-face{
+    font-family: 'FORTE';
+ src: url('../font/FORTE.TTF') format('OpenType');
+}
+
+body{
+    /*
+    background-image:url(../back_g/ent.png) ;
+*/
+    background-color: #0D1836;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    
+}
+
+
+#contenue{/*
+    background-color: #0D1836;*/
+    background-image:url(../back_g/ent.png) ;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    border: 0px; 
+}
+#container-fluid{
+        width: 100%;   
+        height: 100%;        
+    }
+    
+.navbar{
+        /*box-shadow: 0px 1px 0px #fff; */
+        background-color: #0D1836;
+        width: 100%;
+        margin: 0px ;
+        border: 0px;
+        position: relative;
+        
+    }
+    
+.navbar .nav-item .nav-link {
+        color: white;
+        cursor: pointer;
+      
+        
+        /*box-shadow: 0px 1px 1px #fff;*/
+    }
+    
+.navbar .nav-item .nav-link:hover{
+        color: #E95F17;
+        text-decoration: wavy underline #E95F17;
+    }
+
+   
+  
+#header{
+    background-image:url(../back_g/ent.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+        width: 100%;
+        height:100%;
+        margin: 0px;
+        border: 0px
+    }
+
+    #carouselExampleIndicators{
+        width: 100%;
+        height: 500px;
+    }
+#definition{
+    width: 100%;
+    text-align: center;
+    float: right;
+    color: white;
+    margin-top: 20px;
+    
+
+}
+#definition h2:hover{
+    animation: swing;
+    animation-duration: 3s;  
+    color: #E95F17;
+}
+#def{
+    width: 70%;
+    height: 100%;
+    margin-left:15%;
+    margin-right:15%;
+    font-size: large
+}
+#def:hover{
+    font-size: larger;
+}
+
+   #footer{
+        background-color: #0D1836;  
+        width: 100%;/*
+        height: 100%;*/
+        color: white; 
+        text-align: center;
+        margin: 0px;
+        border: 0px; 
+        padding: 0%;
+    border-top: 1px solid white;;
+        
+       
+    }
+    #footer .row{
+        width: 100%;
+    }
+   
+    #rsx{
+        width: 100%;/*
+        height: 100%;
+        margin-bottom: 2%;*/
+        text-align: center;
+    }
+    #rsx a{/*
+        margin:1.5px*/
+    }
+    #rsx a img{
+        /*margin:1.5px*/
+    }
+    #rsx a img:hover{
+        width: 28px;
+        height: 28px;
+    }
+
+.carousel-inner{
+    width: 100%;
+    height: 400px;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    
+
+}
+.carousel-inner .carousel-item #title{
+    font-size: 80px;
+    animation: bounceInLeft;
+    animation-duration: 4s;
+    margin-top: 50px;
+}
+.carousel-inner .carousel-item #txt_1{
+    animation: fadeInBottomRight;
+    font-size: large;
+    animation-duration: 5s; 
+}
+
+
+.carousel-inner .carousel-item #title_2{
+    font-size: 80px;
+    margin-top: 50px;
+    animation: backInDown;
+    animation-duration: 2s; 
+}
+.carousel-inner .carousel-item #txt_2{
+    animation: backInUp;
+    animation-duration: 3s; 
+}
+.carousel-inner .carousel-item #anim{
+    position: relative;
+    
+}
+.carousel-inner .carousel-item .container .row .col-sm{
+    width: 100%;
+height: 100%;
+text-align: center;
+
+}
+
+
+.carousel-inner .carousel-item #pc{
+position: absolute;
+ z-index: 1;
+ animation: fadeInRight;
+    animation-duration: 2s;
+    width: 100%;
+    height: 100%; 
+      
+}
+
+.carousel-inner .carousel-item #loop{
+ position: absolute;
+ margin-top: 8%;
+ margin-bottom: 0;
+ width: 100%;
+ height: 100%; 
+ z-index: 3; 
+ animation: fadeInLeft;
+animation-duration: 6s;
+
+}
+
+.carousel-inner .carousel-item #logo_txt {
+    position: absolute;
+     width: 100%;
+     height: 100%;  
+     z-index: 2;
+     color: black;
+     font-size: 15px;
+     font-style: oblique;
+     font-weight: bold;
+     margin: 0;
+     margin-top: 18%;
+    /* margin-left: 42%;*/
+    margin-left:10%;
+     animation: backInDown;
+    animation-duration: 4s;
+    }
+    
+    .carousel-inner .carousel-item #logo_txt p{
+        margin-top: 12%;
+        -webkit-transform: rotate(23deg);
+        
+    }
+
+ 
+#copy{
+    text-align:center;
+    height:20px;
+    margin:0px;
+    
+}
+
+
+
+
+
+
+/*************************
+.card-deck{
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    border:0px;
+   
+}
+
+.card-deck .card{
+    border: 0px;
+    background-color: #C70039;
+    color: white;
+}
+
+.card-deck .card .card-body .card-title{
+    text-align: center;
+    
+}
+
+.card-deck .card .card-body .card-text{
+    font-size: large;
+    text-align: center;
+    
+}*/
+
+
+.FT-nav{
+    list-style-type:none;
+    
+  }
+
+   
+
+  #table tr ul li {
+    list-style-type:none;
+    
+  }
+
+ 
+  .FT p{
+    color:black;
+    border-bottom:2px solid coral;
+  }
+  
+  .card-text{
+    text-align:center;
+  }
+  .card-title{
+    text-align:center; 
+  }
+  
+  .Element{
+      background-color: #0D1836;
+  }
+
+ 
